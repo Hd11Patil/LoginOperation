@@ -87,3 +87,27 @@ h2 {
 .login-link:hover {
   background-color: #0056b3;
 }
+
+/* ------------------------- */
+
+.form-group {
+  margin-bottom: 15px;
+  font-family: sans-serif;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.radio-group label {
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+/* Optional: styling the radio button itself */
+input[type="radio"] {
+  cursor: pointer;
+  accent-color: #007bff; /* Changes the blue color to match your theme */
+}

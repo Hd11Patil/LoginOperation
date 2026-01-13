@@ -54,6 +54,39 @@ const Signup = () => {
               onChange={(e) => setEmail(e.target.value)}
             />
           </div>
+          {/* ----------------------------------------
+           */}
+
+          <div className="mb-3">
+            <label htmlFor="email">
+              <strong>Number</strong>
+            </label>
+            <input
+              type="Number"
+              placeholder="Enter Number"
+              autoComplete="off"
+              name="email"
+              className="form-control rounded-0"
+            />
+          </div>
+
+          <div className="form-group">
+            <label htmlFor="email">
+              <strong>Gender</strong>
+            </label>
+            <div className="radio-group">
+              <input type="radio" id="male" name="gender" value="male" />
+              <label htmlFor="male">Male</label>
+
+              <input type="radio" id="female" name="gender" value="female" />
+              <label htmlFor="female">Female</label>
+
+              <input type="radio" id="other" name="gender" value="other" />
+              <label htmlFor="other">Other</label>
+            </div>
+          </div>
+
+          {/* ------------------------------------------ */}
 
           <div className="mb-3">
             <label htmlFor="email">
@@ -65,6 +98,18 @@ const Signup = () => {
               name="password"
               className="form-control rounded-0"
               onChange={(e) => setPassword(e.target.value)}
+            />
+          </div>
+
+          <div className="mb-3">
+            <label htmlFor="email">
+              <strong>Confirm Password</strong>
+            </label>
+            <input
+              type="password"
+              placeholder="Enter Password"
+              name="password"
+              className="form-control rounded-0"
             />
           </div>
 
